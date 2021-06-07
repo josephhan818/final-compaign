@@ -12,6 +12,7 @@ p,h1,h2,h3,h4,h4,h6,div,span {
 p {
 	font-size: 16px;
 }
+
 nav{
 	display:inline;
 }
@@ -20,7 +21,7 @@ nav{
 	float:left;
 
 }
-.navbar-brand h6{
+.navbar-brand h5{
 	padding-top: 12.5px;
 	font-weight: bold;
 }
@@ -55,8 +56,9 @@ body{
 
 .title {
 	font-weight: bold;
-	color:#D95644;
+	color:#F4715B;
 	margin:30px;
+	font-size: 50px;
 }
 
 .story {
@@ -88,29 +90,23 @@ body{
 .content-group {
 	background-color: #ffffff;
 	padding-bottom:70px;
-	text-align: left;
 	padding: 50px;
-	margin:0 auto;
 	width:100%;
 }
-.content-group h3{
-	text-align: center!important;
-	margin:0 auto;
+
+.T{
+	font-size: 24px;
+	font-family: PingFangTC-Semibold,sans-serif;
 }
+
 .product .card {
 	background-color: #ffffff;
 	padding: 20px 10px;
 	margin-bottom: 10px;
 }
-.content-group img {
-	width:100%;
-	margin:0 auto;
-}
 
 
-.content-group img:hover {
-	opacity: 0.8;
-}
+
 .line{
 	border: none;border-bottom:2px dotted gray
 }
@@ -165,6 +161,19 @@ body{
 
 
 
+.main img{
+
+	padding-right: 30px;
+	width:100%;
+	margin-bottom: 15px;
+
+}
+
+.row1{
+	display: inline-block;
+	justify-content:center;
+	flex-durection:row;
+}
 footer span{
 	font-size: 10px;
 	padding:0!important;
